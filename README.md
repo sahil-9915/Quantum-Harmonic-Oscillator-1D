@@ -51,7 +51,7 @@ $$\frac{d\rho}{dt} = -i[\hat{H}, \rho] + \sum_k \gamma_k \mathcal{D}{[L_k]}(\rho
 
 $$\mathcal{D}{[L]}(\rho) = L\rho L^\dagger - \frac{1}{2}\left(L^\dagger L\,\rho + \rho\, L^\dagger L\right)$$
 
-Two noise channels are supported:
+Three noise channels are supported:
 
 | Channel | Jump operator | Physical meaning |
 |---|---|---|
