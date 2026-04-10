@@ -83,8 +83,10 @@ class Quantum_numerical_simulator:
         self.H = np.diag(diag_main) + np.diag(diag_off, 1) + np.diag(diag_off, -1)
         return self.H
 
-     def compute_eigenstates(self):
+     def compute_eigenstates(self, verbose=False):
         self.eigenvalues, self.eigenvectors = np.linalg.eigh(self.H)
+        if verbose:
+            print(f"Computed {len(self.eigenvalues)} eigenstates")
         return self.eigenvalues, self.eigenvectors
 
 
