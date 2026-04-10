@@ -94,6 +94,12 @@ solver.plot_wigner_dm(rhos[-1], title='Wigner — final decohered state')
 ```
 
 ---
+## Requirements
+
+```
+numpy
+matplotlib
+```
 
 ## 📄 License
 
